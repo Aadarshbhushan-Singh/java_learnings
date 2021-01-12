@@ -9,12 +9,10 @@ public class class_23_find_vowel_and_consonant_count {
             for (int j=0; j<5; j++){
                 if (ele==vowel[j]){
                     vowel_count+=1;
-                }else{
-                    consonant_count+=1;
                 }
             }
         }
-        System.out.println(vowel_count +" "+consonant_count);
+        System.out.println("Vowel: "+vowel_count +" "+"Consonant: "+(str.length()-vowel_count));
 
     }
     public static void main(String[] args){
@@ -22,5 +20,6 @@ public class class_23_find_vowel_and_consonant_count {
         System.out.println("Enter the string: ");
         String str=sc.next();
         count(str);
+
     }
 }

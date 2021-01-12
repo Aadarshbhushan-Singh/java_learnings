@@ -26,6 +26,11 @@ public class class_06_strings {
         * string.equals("Aadarsh") --> will return true if string is equal to "Aadarsh"
         * string.equalsIgnoreCase("Aadarsh") --> This will ignore case and then compare
         * \ is escapre sequence character
+        * Character.getNumericValue('s') --> get nueric value of char as int eg. '5' as 5
+        * Integer.parseInt("string") --> will convert string to integer if it is convertable
+        * Double.parseDouble("String")
+        * Float.parseFloat("string")
+        *
         * */
         System.out.println(name.length());
         System.out.println(name.toUpperCase());
