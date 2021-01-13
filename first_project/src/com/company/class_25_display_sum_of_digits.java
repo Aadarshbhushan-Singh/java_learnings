@@ -22,6 +22,7 @@ public class class_25_display_sum_of_digits {
     }
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number: ");
         String str=sc.next();
         if (checkInt(str) == true){
             getSum(str);
