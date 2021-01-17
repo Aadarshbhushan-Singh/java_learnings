@@ -2,7 +2,7 @@ package com.company;
 
 public class class_31_twin_prime_numbers {
     //twin prime numbers less than 100
-    static boolean checkPrime(int num){
+	static boolean checkPrime(int num){
         for (int i=2; i<num; i++){
             if (num%i==0){
                 return false;
@@ -15,6 +15,6 @@ public class class_31_twin_prime_numbers {
             if (checkPrime(i) && checkPrime(i+2)){
                 System.out.println("("+i+" "+(i+2)+")");
             }
-        }
+        }        
     }
 }

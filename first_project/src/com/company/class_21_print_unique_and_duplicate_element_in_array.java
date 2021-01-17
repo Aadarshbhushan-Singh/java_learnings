@@ -15,7 +15,7 @@ public class class_21_print_unique_and_duplicate_element_in_array {
                 }
             }
             if (count==1){
-                System.out.print("Unique element: "+element);
+                System.out.println("Unique element: "+element);
             }else if(count>1){
                 int length_duplicate=duplicate.length;
                 System.out.println("Duplicate element: "+element);
