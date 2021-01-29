@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/first_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_43_find_sorted_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_44_Swaping_From_Decimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_45_practice_classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_46_access_modifiers_getter_setter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_47_constructors_and_constructorsOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/class_06_strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/class_06_strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_02_understanding_literals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_02_understanding_literals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_03_getting_user_input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_03_getting_user_input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_04_exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_04_exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_05_practice_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_05_practice_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_06_strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_06_strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_07_reverse_string_practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_07_reverse_string_practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_08_conditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_08_conditional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_09_convert_decimal_to_binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_09_convert_decimal_to_binary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_10_practice_loops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_10_practice_loops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_11_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_11_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_12_for_each_loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_12_for_each_loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_13_multidimentional_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_13_multidimentional_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_14_adding_matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_14_adding_matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_15_practice_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_15_practice_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_16_reverse_decimal_hackerearth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_16_reverse_decimal_hackerearth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_17_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_17_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_18_sum_and_average_of_elements_in_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_18_sum_and_average_of_elements_in_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_19_copy_remove_element_from_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_19_copy_remove_element_from_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_19_printing_grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_19_printing_grid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_20_swapping_of_variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_20_swapping_of_variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_21_print_unique_and_duplicate_element_in_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_21_print_unique_and_duplicate_element_in_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_22_function_practice_max_min_average_three_numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_22_function_practice_max_min_average_three_numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_22_practice_display_middle_char.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_22_practice_display_middle_char.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_23_find_vowel_and_consonant_count.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_23_find_vowel_and_consonant_count.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_24_practice_count_words.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_24_practice_count_words.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_25_display_sum_of_digits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_25_display_sum_of_digits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_26_practice_pentagonal_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_26_practice_pentagonal_number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_27_practice_printing_characters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_27_practice_printing_characters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_28_practice_valid_password.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_28_practice_valid_password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_29_regex_pattern_matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_29_regex_pattern_matching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_30_practice_generate_n_matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_30_practice_generate_n_matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_31_twin_prime_numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_31_twin_prime_numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_32_methods_overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_32_methods_overloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_33_varArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_33_varArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/class_42_aastha_FAT_matrix_subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/class_42_aastha_FAT_matrix_subtraction.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nLIjvaIHiYHOBLLAMseHHuYyDn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2nd Semester - Shortcut.lnk" />
+  </component>
+  <component name="RunManager" selected="Application.class_47_constructors_and_constructorsOverloading">
+    <configuration name="class_44_Swaping_From_Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_44_Swaping_From_Decimal" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_44_Swaping_From_Decimal_without_String_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_44_Swaping_From_Decimal_without_String_Function" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_45_practice_classes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_45_practice_classes" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_46_access_modifiers_getter_setter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_46_access_modifiers_getter_setter" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_47_constructors_and_constructorsOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_47_constructors_and_constructorsOverloading" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.class_47_constructors_and_constructorsOverloading" />
+        <item itemvalue="Application.class_46_access_modifiers_getter_setter" />
+        <item itemvalue="Application.class_45_practice_classes" />
+        <item itemvalue="Application.class_44_Swaping_From_Decimal" />
+        <item itemvalue="Application.class_44_Swaping_From_Decimal_without_String_Function" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="" />
+      <created>1611163085175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611163085175</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
