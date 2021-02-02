@@ -7,7 +7,7 @@ package com.company;
 * If we don't use override annotations then also method overriding will work.
 * But still we use this to avoid confusion for other coders. This is recommended, not compulsory.
 *
-* While method overriding, both method name and argument should be same type. 
+* While method overriding, both method name and argument should be same type.
 * */
 
 class A{
