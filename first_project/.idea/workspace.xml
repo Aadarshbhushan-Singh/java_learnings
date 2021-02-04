@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_57_inheritance_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_58_abstract_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_58_pranjal_challenge_pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_59_interface_in_java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_60_pattern_printing_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_56_library_practice_problem_cwh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_56_library_practice_problem_cwh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/class_59_pattern_printing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/class_59_pattern_printing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2nd Semester - Shortcut.lnk" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.class_58_pranjal_challenge_pattern">
-    <configuration name="class_57_inheritance_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.class_57_inheritance_practice" />
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.class_60_pattern_printing_02">
     <configuration name="class_58_abstract_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.class_58_abstract_class" />
       <module name="first_project" />
@@ -92,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="class_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.class_practice" />
+    <configuration name="class_59_pattern_printing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_59_pattern_printing" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_60_pattern_printing_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_60_pattern_printing_02" />
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.class_60_pattern_printing_02" />
+        <item itemvalue="Application.class_59_pattern_printing" />
         <item itemvalue="Application.class_58_pranjal_challenge_pattern" />
         <item itemvalue="Application.class_59_interface_in_java" />
         <item itemvalue="Application.class_58_abstract_class" />
-        <item itemvalue="Application.class_57_inheritance_practice" />
-        <item itemvalue="Application.class_practice" />
       </list>
     </recent_temporary>
   </component>
