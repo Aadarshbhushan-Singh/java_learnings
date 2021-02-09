@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_61_palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_62_check_perfect_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/class_64_abstract_class_interface_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/java_63_sparse_string_HackerRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learning_packages/learning_packages.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/access_modifiers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/firstPackage/class03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/sciencePackage/chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/sciencePackage/physics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_64_static_keyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/first_project/com/company/class_60_pattern_printing_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/first_project/com/company/class_60_pattern_printing_02.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +43,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.java_63_sparse_string_HackerRank">
+  <component name="RunManager" selected="Application.class_64_static_keyword">
     <configuration name="class_56_library_practice_problem_cwh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.class_56_library_practice_problem_cwh" />
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="class_61_palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.class_61_palindrome" />
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="class_64_static_keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_64_static_keyword" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="java_63_sparse_string_HackerRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.java_63_sparse_string_HackerRank" />
       <module name="first_project" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.class_64_static_keyword" />
         <item itemvalue="Application.java_63_sparse_string_HackerRank" />
         <item itemvalue="Application.class_56_library_practice_problem_cwh" />
         <item itemvalue="Application.class_64_abstract_class_interface_practice" />
         <item itemvalue="Application.class_62_check_perfect_number" />
-        <item itemvalue="Application.class_61_palindrome" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,24 @@
+package firstPackage;
+import java.util.Scanner;
+public class checkPalindrome {
+    public static boolean checkPalindromeNumber(int num){
+        int rem;
+        int preFinalNum=num;
+        int finalNum=0;
+        while(num>=1){
+            rem=num%10;
+            num=num/10;
+            finalNum=finalNum*10+rem;
+        }
+        if(preFinalNum==finalNum)
+            return true;
+        else
+            return false;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num=sc.nextInt();
+        System.out.println(checkPalindromeNumber(num));;
+    }
+}
