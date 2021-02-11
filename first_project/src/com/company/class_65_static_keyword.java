@@ -16,7 +16,7 @@ class staticKeyword2{
         System.out.println("This is printing without making isntance."+x++);
     }
 }
-public class class_64_static_keyword {
+public class class_65_static_keyword {
     public static void main(String[] args) {
         staticKeyword obj1=new staticKeyword();
         obj1.printThis();

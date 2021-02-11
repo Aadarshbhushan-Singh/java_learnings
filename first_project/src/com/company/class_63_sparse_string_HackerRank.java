@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
 * https://www.hackerrank.com/challenges/sparse-arrays/problem
 * */
-public class java_63_sparse_string_HackerRank {
+public class class_63_sparse_string_HackerRank {
     static int n=0;
     public static void matchingStrings(String[] strings, String[] queries){
         int count=0;

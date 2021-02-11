@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\singh\Desktop\java\first_project"/>
 			<item value="D:\VIT\3rd_Semester\Java_CSE1007_John_Singh\LAB\9th_Feb_Experiments"/>
 		</list>
 	</section>
