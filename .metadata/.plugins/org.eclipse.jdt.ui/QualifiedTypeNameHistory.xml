@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.applet.Applet"/>
+    <fullyQualifiedTypeName name="com.company.class_02_understanding_literals"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+</qualifiedTypeNameHistroy>
