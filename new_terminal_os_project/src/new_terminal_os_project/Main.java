@@ -16,7 +16,65 @@ public class Main {
 		//Help
 		if (command.equals("help"))
 		{
-			System.out.println("This is help.");
+			System.out.println("------------------------All the commands and their uses are listed below which can be used as needed---------------------");
+			System.out.println("   ");
+					System.out.println("Help--> This command lists all the commands with thier uses.");
+			System.out.println("   ");
+					System.out.println("cls--> This command clears the console window.");
+			System.out.println("   ");
+					System.out.println("list-dir--> This command lists all the directory in the current folder.");
+			System.out.println("   ");
+					System.out.println("echo--> This command prints the input given in the console window.");
+			System.out.println("   ");
+					System.out.println("open-file--> This command will open the file that is provided as filename.");
+			System.out.println("   ");
+					System.out.println("open-folder--> This command will open the folder that is provided as the folder name.");
+			System.out.println("   ");
+					System.out.println("write-file--> This command helps to write into the textfile.");
+			System.out.println("   ");
+					System.out.println("read-file--> This command displays the content of file in console window.");
+			System.out.println("   ");
+					System.out.println("delete-file--> This command will delete the given file.");
+			System.out.println("   ");
+					System.out.println("copy-file--> This command will create a duplicate file of the given file.");
+			System.out.println("   ");
+					System.out.println("rename-file--> This command will rename the given file.");
+			System.out.println("   ");
+					System.out.println("file-size--> This command will display the size of the given file.");
+			System.out.println("   ");
+					System.out.println("open-file-help--> This command provides the all the list of commands related to files and their uses.");
+			System.out.println("   ");
+					System.out.println("date--> This command displays the current date.");
+			System.out.println("   ");
+					System.out.println("date-time--> This command will give the current date and time both.");
+			System.out.println("   ");
+					System.out.println("show-ip--> This command will show the ip-address of the computer or the device.");
+			System.out.println("   ");
+					System.out.println("show-mac--> This command will show the mac-address of the device.");
+			System.out.println("   ");
+					System.out.println("display-location--> This command will show the location of computer(Computer must be connected to the internet for result to be displayed).");
+			System.out.println("   ");
+					System.out.println("restart--> This command will restart the system.");
+			System.out.println("   ");
+					System.out.println("sleep--> This command make the system in the sleep mode.");
+			System.out.println("   ");
+					System.out.println("shutdown--> This command shuts down the system.");
+			System.out.println("   ");
+					System.out.println("computer-info--> This command shows the detailed information about the system's configuration.");
+			System.out.println("   ");
+					System.out.println("show-disk--> This command will list the disk available in the computer.");
+			System.out.println("   ");
+					System.out.println("open-app--> This command opens the application given with the command.");
+			System.out.println("   ");
+					System.out.println("open-chrome website-name--> This commands first opens chrome(if not available in system ,throws error), then opens specific site given in chrome tab.");
+			System.out.println("   ");
+					System.out.println("calc--> This command performs arithmetic calculation based on the given operators and numbers.");
+			System.out.println("   ");
+					System.out.println("open-new-terminal--> This command opens a new terminal by the help of current terminal(for example: we can open command prompt using our terminal).");
+			System.out.println("   ");
+					System.out.println("info--> This command gives information about the designers and makers of terminal.");
+			System.out.println("   ");
+					System.out.println("exit--> The terminal exits after the use of this commands.");
 			runCommand();
 		}
 		//clear console
@@ -35,7 +93,8 @@ public class Main {
 		else if (command.equals("list-dir"))
 		{
 			try {
-				File file = new File("C:\\Users\\singh\\Desktop\\java\\new_terminal_os_project\\src\\new_terminal_os_project\\Files_list");
+				String currentPath = new java.io.File( "." ).getCanonicalPath();
+				File file = new File(currentPath);
 	
 			    // returns an array of all files
 			    String[] fileList = file.list();
@@ -55,7 +114,8 @@ public class Main {
 			
 			try {
 				String fileName=command.substring(10);
-				String path="C:\\Users\\singh\\Desktop\\java\\new_terminal_os_project\\src\\new_terminal_os_project\\Files_list"+"\\"+fileName;
+				String currentPath = new java.io.File( "." ).getCanonicalPath();
+				String path=currentPath+"\\"+fileName;
 				File file =new File(path);
 				
 				if (file.exists())
@@ -81,7 +141,7 @@ public class Main {
 		{
 			try {
 				
-				String path="C:\\Users\\singh\\Desktop\\java\\new_terminal_os_project\\src\\new_terminal_os_project\\Files_list";
+				String path = new java.io.File( "." ).getCanonicalPath();
 				File file =new File(path);
 				
 				if (file.exists())
