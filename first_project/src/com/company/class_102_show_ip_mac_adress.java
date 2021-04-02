@@ -11,8 +11,8 @@ public class class_102_show_ip_mac_adress {
 		{
 			System.out.println("An error occured.");
 		}
-		 String locale = context.getResources().getConfiguration().locale.getCountry(); 
-		 System.out.println(locale);
+//		 String locale = context.getResources().getConfiguration().locale.getCountry(); 
+//		 System.out.println(locale);
 		
 	}
 }
