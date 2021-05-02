@@ -19,5 +19,6 @@ public class class_02_understanding_literals {
         * System.put.print() continues printing in same line
         */
         System.out.println(j);
+
     }
 }
