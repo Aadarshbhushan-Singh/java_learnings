@@ -1,5 +1,4 @@
-import java.sql.*;
-import Project.ConnectionProvider;
+import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -11,12 +10,19 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import java.awt.Color;
 import javax.swing.JTextField;
+import com.toedter.calendar.JDateChooser;
+
+import Project.ConnectionProvider;
+
 import javax.swing.JButton;
 import javax.swing.ImageIcon;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.awt.event.ActionEvent;
 
-public class ReturnBook extends JFrame {
+public class Return_Book extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField txtBookId;
@@ -31,7 +37,7 @@ public class ReturnBook extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ReturnBook frame = new ReturnBook();
+					Return_Book frame = new Return_Book();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -43,56 +49,59 @@ public class ReturnBook extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ReturnBook() {
+	public Return_Book() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 721, 486);
-		contentPane = new JPanel();
+		setBounds(700, 150, 624, 585);
 		setUndecorated(true);
-		setBounds(375, 175, 727, 551);
+		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("BookId");
-		lblNewLabel.setForeground(Color.RED);
-		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblNewLabel.setBounds(105, 119, 156, 38);
-		contentPane.add(lblNewLabel);
+		JLabel lblBookId = new JLabel("Book Id");
+		lblBookId.setForeground(Color.RED);
+		lblBookId.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblBookId.setBounds(46, 149, 90, 33);
+		contentPane.add(lblBookId);
 		
-		JLabel lblStudentid = new JLabel("Student Reg No");
-		lblStudentid.setForeground(Color.RED);
-		lblStudentid.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblStudentid.setBounds(105, 167, 156, 38);
-		contentPane.add(lblStudentid);
+		JLabel lblStudentRegNo = new JLabel("Student Reg No");
+		lblStudentRegNo.setForeground(Color.RED);
+		lblStudentRegNo.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblStudentRegNo.setBounds(46, 195, 185, 33);
+		contentPane.add(lblStudentRegNo);
 		
-		JLabel lblNewLabel_1_1 = new JLabel("Issue Date");
-		lblNewLabel_1_1.setForeground(Color.RED);
-		lblNewLabel_1_1.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblNewLabel_1_1.setBounds(105, 218, 156, 38);
-		contentPane.add(lblNewLabel_1_1);
+		JLabel lblIssueDate = new JLabel("Issue Date");
+		lblIssueDate.setForeground(Color.RED);
+		lblIssueDate.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblIssueDate.setBounds(46, 282, 146, 33);
+		contentPane.add(lblIssueDate);
 		
-		JLabel lblNewLabel_1_1_1 = new JLabel("Due Date");
-		lblNewLabel_1_1_1.setForeground(Color.RED);
-		lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblNewLabel_1_1_1.setBounds(105, 264, 156, 38);
-		contentPane.add(lblNewLabel_1_1_1);
+		JLabel lblDueDate = new JLabel("Due Date");
+		lblDueDate.setForeground(Color.RED);
+		lblDueDate.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblDueDate.setBounds(46, 332, 146, 33);
+		contentPane.add(lblDueDate);
+		
+		JLabel lblNewLabel_1 = new JLabel("Return Books");
+		lblNewLabel_1.setForeground(Color.RED);
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 20));
+		lblNewLabel_1.setBounds(211, 55, 161, 42);
+		contentPane.add(lblNewLabel_1);
 		
 		txtBookId = new JTextField();
-		txtBookId.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		txtBookId.setBackground(new Color(224, 255, 255));
-		txtBookId.setBounds(271, 119, 272, 38);
-		contentPane.add(txtBookId);
+		txtBookId.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		txtBookId.setColumns(10);
+		txtBookId.setBounds(257, 150, 290, 33);
+		contentPane.add(txtBookId);
 		
 		txtStudentRegNo = new JTextField();
-		txtStudentRegNo.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		txtStudentRegNo.setBackground(new Color(224, 255, 255));
+		txtStudentRegNo.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		txtStudentRegNo.setColumns(10);
-		txtStudentRegNo.setBounds(271, 167, 272, 38);
+		txtStudentRegNo.setBounds(257, 195, 290, 33);
 		contentPane.add(txtStudentRegNo);
 		
-		JButton btnSave = new JButton("Save");
-		btnSave.addActionListener(new ActionListener() {
+		JButton btnReturn = new JButton("Return");
+		btnReturn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String bookId=txtBookId.getText();
 				String studentRegNo=txtStudentRegNo.getText();
@@ -103,30 +112,28 @@ public class ReturnBook extends JFrame {
 					st.executeUpdate("update issue set returnBook='Yes' where bookId='"+bookId+"' and studentRegNo='"+studentRegNo+"'");
 					JOptionPane.showMessageDialog(null, "Book Successfully returned.");
 					setVisible(false);
-					new ReturnBook().setVisible(true);
+					new Return_Book().setVisible(true);
 				}catch(Exception e4)
 				{
 					System.out.println(e4.getMessage());
 				}
 			}
 		});
-		btnSave.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\DBMSd_Reader_Management_Syetem_Project\\Icons\\save-icon--1.png"));
-		btnSave.setForeground(Color.BLACK);
-		btnSave.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 18));
-		btnSave.setBounds(271, 327, 125, 54);
-		contentPane.add(btnSave);
+		btnReturn.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\return book png.png"));
+		btnReturn.setFont(new Font("Tahoma", Font.BOLD, 18));
+		btnReturn.setBounds(257, 414, 156, 59);
+		contentPane.add(btnReturn);
 		
-		JButton btnCancel = new JButton("Cancel");
-		btnCancel.addActionListener(new ActionListener() {
+		JButton btnClose = new JButton("Close");
+		btnClose.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
 			}
 		});
-		btnCancel.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\DBMSd_Reader_Management_Syetem_Project\\Icons\\red-x-mark-transparent-background-3.png"));
-		btnCancel.setForeground(Color.BLACK);
-		btnCancel.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 18));
-		btnCancel.setBounds(418, 327, 125, 54);
-		contentPane.add(btnCancel);
+		btnClose.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\red-x-mark-transparent-background-3.png"));
+		btnClose.setFont(new Font("Tahoma", Font.BOLD, 18));
+		btnClose.setBounds(423, 414, 124, 59);
+		contentPane.add(btnClose);
 		
 		JButton btnSearch = new JButton("Search");
 		btnSearch.addActionListener(new ActionListener() {
@@ -156,8 +163,6 @@ public class ReturnBook extends JFrame {
 						else
 						{
 							JOptionPane.showMessageDialog(null, "Incorrect student reg no or book id.");
-							setVisible(false);
-							new ReturnBook().setVisible(true);
 						}
 					}
 					
@@ -169,29 +174,21 @@ public class ReturnBook extends JFrame {
 				}
 			}
 		});
-		btnSearch.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\DBMSd_Reader_Management_Syetem_Project\\Icons\\search.png"));
-		btnSearch.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		btnSearch.setBounds(553, 167, 104, 38);
+		btnSearch.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\Effective_Reader_Management_System\\Icons\\search.png"));
+		btnSearch.setFont(new Font("Tahoma", Font.BOLD, 16));
+		btnSearch.setBounds(257, 238, 130, 32);
 		contentPane.add(btnSearch);
 		
-		JLabel lblReturnBook = new JLabel("Return Book");
-		lblReturnBook.setForeground(Color.BLUE);
-		lblReturnBook.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		lblReturnBook.setBounds(237, 21, 140, 42);
-		contentPane.add(lblReturnBook);
-		
 		txtIssueDate = new JTextField();
-		txtIssueDate.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtIssueDate.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		txtIssueDate.setColumns(10);
-		txtIssueDate.setBackground(new Color(224, 255, 255));
-		txtIssueDate.setBounds(271, 216, 272, 38);
+		txtIssueDate.setBounds(257, 282, 290, 33);
 		contentPane.add(txtIssueDate);
 		
 		txtDueDate = new JTextField();
-		txtDueDate.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtDueDate.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		txtDueDate.setColumns(10);
-		txtDueDate.setBackground(new Color(224, 255, 255));
-		txtDueDate.setBounds(271, 264, 272, 38);
+		txtDueDate.setBounds(257, 327, 290, 33);
 		contentPane.add(txtDueDate);
 	}
 }

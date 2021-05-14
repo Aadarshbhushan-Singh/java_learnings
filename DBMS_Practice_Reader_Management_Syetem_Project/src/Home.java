@@ -78,6 +78,11 @@ public class Home extends JFrame {
 		contentPane.add(btnNewBook);
 		
 		JButton btnStatistics = new JButton("Statistics");
+		btnStatistics.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new statistics().setVisible(true);
+			}
+		});
 		btnStatistics.setIcon(new ImageIcon("C:\\Users\\singh\\Desktop\\java\\DBMSd_Reader_Management_Syetem_Project\\Icons\\Statics.png"));
 		btnStatistics.setForeground(Color.RED);
 		btnStatistics.setFont(new Font("Tahoma", Font.BOLD, 18));
