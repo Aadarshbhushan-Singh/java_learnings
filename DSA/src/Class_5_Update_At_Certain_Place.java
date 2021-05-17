@@ -37,18 +37,21 @@ public class Class_5_Update_At_Certain_Place {
 		{
 			//size-place+1
 			System.out.println("Entered here: ");
-			for(int i=size; i>size-place+1; i--)
+			for(int i=size; i>=place; i--)
 			{
 				array[i]=array[i-1];
 			}
+			array[place-1]=ele;
+			
+			//Printing after updating
+			System.out.println("After updating: ");
+			for(int i=0; i<size+1; i++)
+			{
+				System.out.print(array[i]+" ");
+			}
 		}
 		
-		//Printing after updating
-		System.out.println("After updating: ");
-		for(int i=0; i<size+1; i++)
-		{
-			System.out.print(array[i]+" ");
-		}
+		
 		
 	}
 }
