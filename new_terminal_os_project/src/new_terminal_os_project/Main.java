@@ -1,6 +1,9 @@
 package new_terminal_os_project;
 
 import java.util.Scanner;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.awt.Desktop;	
 import javax.swing.filechooser.FileSystemView;
 import java.io.*;
 import java.nio.file.Files; 
@@ -26,31 +29,39 @@ public class Main {
 			System.out.println("   ");
 					System.out.println("echo--> This command prints the input given in the console window.");
 			System.out.println("   ");
-					System.out.println("open-file--> This command will open the file that is provided as filename.");
+					System.out.println("open-file filename--> This command will open the file that is provided as filename.");
 			System.out.println("   ");
-					System.out.println("open-folder--> This command will open the folder that is provided as the folder name.");
+					System.out.println("create-file filename.txt--> This command creates file by the filename given to it.");
 			System.out.println("   ");
-					System.out.println("write-file--> This command helps to write into the textfile.");
+					System.out.println("open-folder foldername--> This command will open the folder that is provided as the folder name.");
 			System.out.println("   ");
-					System.out.println("read-file--> This command displays the content of file in console window.");
+					System.out.println("write-file filename--> This command helps to write into the textfile.");
 			System.out.println("   ");
-					System.out.println("delete-file--> This command will delete the given file.");
+					System.out.println("read-file filename--> This command displays the content of file in console window.");
 			System.out.println("   ");
-					System.out.println("copy-file--> This command will create a duplicate file of the given file.");
+					System.out.println("file-info filename--> This command displays all the details regarding the file such as file size, location.");
 			System.out.println("   ");
-					System.out.println("rename-file--> This command will rename the given file.");
+					System.out.println("delete-file filename--> This command will delete the given file.");
 			System.out.println("   ");
-					System.out.println("file-size--> This command will display the size of the given file.");
+					System.out.println("copy-file filename--> This command will create a duplicate file of the given file.");
 			System.out.println("   ");
-					System.out.println("open-file-help--> This command provides the all the list of commands related to files and their uses.");
+					System.out.println("rename-file old_filename new_filename--> This command will rename the given file.");
+			System.out.println("   ");
+					System.out.println("file-size filename--> This command will display the size of the given file.");
+			System.out.println("   ");
+					System.out.println("file-help--> This command provides the all the list of commands related to files and their uses.");
 			System.out.println("   ");
 					System.out.println("date--> This command displays the current date.");
+			System.out.println("   ");
+					System.out.println("time--> This command displays the current time.");
 			System.out.println("   ");
 					System.out.println("date-time--> This command will give the current date and time both.");
 			System.out.println("   ");
 					System.out.println("show-ip--> This command will show the ip-address of the computer or the device.");
 			System.out.println("   ");
 					System.out.println("show-mac--> This command will show the mac-address of the device.");
+			System.out.println("   ");
+					System.out.println("whoami--> this command displays the admin user name of the device.");
 			System.out.println("   ");
 					System.out.println("display-location--> This command will show the location of computer(Computer must be connected to the internet for result to be displayed).");
 			System.out.println("   ");
@@ -60,21 +71,48 @@ public class Main {
 			System.out.println("   ");
 					System.out.println("shutdown--> This command shuts down the system.");
 			System.out.println("   ");
+					System.out.println("hybernate--> this command sends your device to hibernation state.");
+			System.out.println("   ");
+					System.out.println("shutdown -interval--> This command provides a certain period of time for device to shutdown.");
+			System.out.println("   ");
+					System.out.println("restart -interval--> This command provides a cretain period of time for device to restart.");
+			System.out.println("   ");
+					System.out.println("hybernate -interval--> This command provides a certain period of time for device to hybernate.");
+			System.out.println("   ");
+					System.out.println("abort-shutdown--> This command aborts the shutdown command given to the device.");
+			System.out.println("   ");
+					System.out.println("abort-restart--> This command aborts the restart command given to the device.");
+			System.out.println("   ");
+					System.out.println("abort-hybernate--> This command aborts the hybernate command given to the device.");
+			System.out.println("   ");
 					System.out.println("computer-info--> This command shows the detailed information about the system's configuration.");
 			System.out.println("   ");
 					System.out.println("show-disk--> This command will list the disk available in the computer.");
 			System.out.println("   ");
 					System.out.println("open-app--> This command opens the application given with the command.");
 			System.out.println("   ");
-					System.out.println("open-chrome website-name--> This commands first opens chrome(if not available in system ,throws error), then opens specific site given in chrome tab.");
+					System.out.println("open-appname--> This command first opens chrome(if not available in system ,throws error), then opens specific site given in chrome tab.");
 			System.out.println("   ");
-					System.out.println("calc--> This command performs arithmetic calculation based on the given operators and numbers.");
+					System.out.println("open-websitename--> This command opens the particular website in the browser present in your device.");
 			System.out.println("   ");
-					System.out.println("open-new-terminal--> This command opens a new terminal by the help of current terminal(for example: we can open command prompt using our terminal).");
+					System.out.println("open-chrome--> This command opens chrome app in your device.");
 			System.out.println("   ");
-					System.out.println("info--> This command gives information about the designers and makers of terminal.");
+					System.out.println("open-wikipedia--> This command opens wikipedia in chrome tab.");
+			System.out.println("   ");
+					System.out.println("open-youtube--> This command redirects to chrome app to open youtube in chrome tab.");
+			System.out.println("   ");
+					System.out.println("open-google--> This command opens google in chrome app.");
+			System.out.println("   ");
+					System.out.println("software-info--> This command gives details about the makers of the terminal.");
 			System.out.println("   ");
 					System.out.println("exit--> The terminal exits after the use of this commands.");
+			System.out.println("   ");
+					System.out.println("If someone gives a wrong input--> the terminal will throw 'wrong command input'.");
+			System.out.println("   ");
+					System.out.println("compile-c filename.c--> This commands compiles the c program given by the user.");
+			System.out.println("   ");
+					System.out.println("compile-cpp filename.cpp--> This command compiles the c++ program given by the user.");
+			System.out.println("   ");
 			runCommand();
 		}
 		//clear console
@@ -347,7 +385,33 @@ public class Main {
 		else if(command.equals("file-help"))
 		{
 			try {
-				System.out.println("This is file-help.");
+				System.out.println("-----------The following commands are the file related commands which you can run in the terminal.----------");
+				System.out.println("   ");
+						System.out.println("list-dir--> This command lists all the directory in the current folder.");
+				System.out.println("   ");
+						System.out.println("open-file filename--> This command will open the file that is provided as filename.");
+				System.out.println("   ");
+						System.out.println("create-file filename.txt--> This command creates file by the filename given to it.");
+				System.out.println("   ");
+						System.out.println("open-folder foldername--> This command will open the folder that is provided as the folder name.");
+				System.out.println("   ");
+						System.out.println("write-file filename--> This command helps to write into the textfile.");
+				System.out.println("   ");
+						System.out.println("read-file filename--> This command displays the content of file in console window.");
+				System.out.println("   ");
+						System.out.println("file-info filename--> This command displays all the details regarding the file such as file size, location.");
+				System.out.println("   ");
+						System.out.println("delete-file filename--> This command will delete the given file.");
+				System.out.println("   ");
+						System.out.println("copy-file filename--> This command will create a duplicate file of the given file.");
+				System.out.println("   ");
+						System.out.println("rename-file old_filename new_filename--> This command will rename the given file.");
+				System.out.println("   ");
+						System.out.println("file-size filename--> This command will display the size of the given file.");
+				System.out.println("   ");
+						System.out.println("file-help--> This command provides the all the list of commands related to files and their uses.");
+				System.out.println("   ");
+						System.out.println("-----------------------You can use help command to know commands apart from file handling.-----------------");
 				runCommand();
 			}catch(Exception e) 
 			{
@@ -622,6 +686,125 @@ public class Main {
 				runCommand();
 			}
 		}
+		//compile cpp program
+		else if(command.startsWith("compile-cpp "))
+		{
+			String fileName=command.substring(12);
+			File originalFile=new File(fileName);
+			if(originalFile.exists())
+			{
+				String outputFile=fileName.substring(0, fileName.length() -4);
+				String commandFire="g++ "+fileName+" -o "+outputFile+".exe";
+	//			System.out.println(fileName+" "+outputFile+" "+commandFire);
+				Process p=Runtime.getRuntime().exec(commandFire);
+				System.out.println("File compiled successfully.");
+				runCommand();
+				try {
+					
+				}catch(Exception e)
+				{
+					System.out.println("An error occured.");
+					System.out.println(e.getMessage());
+					runCommand();
+				}
+			}else {
+				System.out.println("File doesn't exist.");
+				runCommand();
+			}
+		}
+		//compile c program
+		else if(command.startsWith("compile-c "))
+		{
+			String fileName=command.substring(10);
+			File originalFile=new File(fileName);
+			if(originalFile.exists())
+			{
+				try {
+					String outputFile=fileName.substring(0, fileName.length() -2);
+					String commandFire="g++ "+fileName+" -o "+outputFile+".exe";
+					Process p=Runtime.getRuntime().exec(commandFire);
+					System.out.pritln("Program compiled successfully");
+					runCommand();
+				}catch(Exception e)
+				{
+					System.out.println("An error occured.");
+					runCommand();
+				}
+			}else {
+				System.out.println("File doesn't exist.");
+				runCommand();
+			}
+		}
+		//open notepad
+		else if(command.equals("open-notepad"))
+		{
+			try {
+				Runtime rt=Runtime.getRuntime();
+				rt.exec("notepad.exe");
+				runCommand();
+			}catch(Exception e)
+			{
+				System.out.println("An error occured.");
+				runCommand();
+			}
+		}
+		
+		//open Chrome
+		else if(command.equals("open-chrome"))
+		{
+			try {
+			    Process p = Runtime.getRuntime().exec("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+			    p.waitFor();
+			    System.out.println("Google Chrome launched!");
+			    runCommand();
+			} catch (Exception e) {
+			    e.printStackTrace();
+			    runCommand();
+			}
+		}
+		//open-youtube
+		else if(command.equals("open-youtube"))
+		{	
+			Desktop desktop = java.awt.Desktop.getDesktop();
+			try {
+				//specify the protocol along with the URL
+				URI oURL = new URI("https://www.youtube.com/");
+				desktop.browse(oURL);
+				runCommand();
+			} catch (URISyntaxException e) {
+				System.out.println("An error occured.");
+				runCommand();
+			}
+		}
+		//open-wikipedia
+		else if(command.equals("open-wikipedia"))
+		{
+			Desktop desktop = java.awt.Desktop.getDesktop();
+			try {
+				//specify the protocol along with the URL
+				URI oURL = new URI("https://www.wikipedia.org/");
+				desktop.browse(oURL);
+				runCommand();
+			} catch (URISyntaxException e) {
+				System.out.println("An error occured.");
+				runCommand();
+			}
+		}
+		//open-google
+		else if(command.equals("open-google"))
+		{
+			Desktop desktop = java.awt.Desktop.getDesktop();
+			try {
+				//specify the protocol along with the URL
+				URI oURL = new URI("https://www.google.com/");
+				desktop.browse(oURL);
+				runCommand();
+			} catch (URISyntaxException e) {
+				System.out.println("An error occured.");
+				runCommand();
+			}
+		}
+		
 		
 		//exit
 		else if(command.equals("exit"))
