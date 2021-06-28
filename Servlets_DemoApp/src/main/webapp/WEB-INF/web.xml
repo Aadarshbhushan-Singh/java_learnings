@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+ 
+ <welcome-file-list>
+ 	<welcome-file>home.html</welcome-file>
+ </welcome-file-list>
+ 
+ <servlet>
+ 	<servlet-name>abc</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.AddServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern>/add</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>pqr</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.sqrServlet</servlet-class>
+ </servlet>
+ 
+<servlet-mapping>
+	<servlet-name>pqr</servlet-name>
+	<url-pattern>/sqr</url-pattern>
+</servlet-mapping>
+
+<!-- Servlet From durgesh -->
+<servlet>
+	<servlet-name>first</servlet-name>
+	<servlet-class>com.Servlets_DemoApp.Class_01_First_Servlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>first</servlet-name>
+	<url-pattern>/web</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>second</servlet-name>
+	<servlet-class>com.Servlets_DemoApp.Class_02_Learn_GenericServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>second</servlet-name>
+	<url-pattern>/secondweb</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>httpServlet</servlet-name>
+	<servlet-class>com.Servlets_DemoApp.Class_03_Learn_HttpServlets</servlet-class>
+</servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>httpServlet</servlet-name>
+ 	<url-pattern>/LearnHttpServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>JavaForm</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.Class_04_Making_Form</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>JavaForm</servlet-name>
+ 	<url-pattern>/RegisterationForm</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>SuccessServlet</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.Class_05_Success_Servlet_Page</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>SuccessServlet</servlet-name>
+ 	<url-pattern>/Successful</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>s2</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.Class_07_s2_product</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>s2</servlet-name>
+ 	<url-pattern>/s2_product</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+ 	<servlet-name>s1</servlet-name>
+ 	<servlet-class>com.Servlets_DemoApp.Class_06_s1_add</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>s1</servlet-name>
+ 	<url-pattern>/Class_06_s1_add</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+
+ 
+</web-app>

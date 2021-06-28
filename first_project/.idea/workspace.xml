@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/access_modifiers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/firstPackage/class03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/sciencePackage/chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../access_modifiers/src/sciencePackage/physics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/class_64_static_keyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nLIjvaIHiYHOBLLAMseHHuYyDn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.class_64_static_keyword">
+    <configuration name="class_56_library_practice_problem_cwh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_56_library_practice_problem_cwh" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_62_check_perfect_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_62_check_perfect_number" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_64_abstract_class_interface_practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_64_abstract_class_interface_practice" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="class_64_static_keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.class_64_static_keyword" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java_63_sparse_string_HackerRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.java_63_sparse_string_HackerRank" />
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.class_64_static_keyword" />
+        <item itemvalue="Application.java_63_sparse_string_HackerRank" />
+        <item itemvalue="Application.class_56_library_practice_problem_cwh" />
+        <item itemvalue="Application.class_64_abstract_class_interface_practice" />
+        <item itemvalue="Application.class_62_check_perfect_number" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b459da38-a99c-4e3e-894a-6d2c9dca292d" name="Default Changelist" comment="" />
+      <created>1611163085175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611163085175</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
