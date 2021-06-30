@@ -1,4 +1,3 @@
-
 public class Class_9_Find_max_min {
 	public static void findMax(int[] array)
 	{
