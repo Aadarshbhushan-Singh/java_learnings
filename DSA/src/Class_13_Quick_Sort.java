@@ -4,6 +4,7 @@ public class Class_13_Quick_Sort {
 		int[] arr= {4, 2, 6, 9, 12, 10, 8, 3, 2, -9};
 		quickSort(arr, 0, arr.length-1);
 		
+		System.out.println("Sorted array: ");
 		for(int ele: arr) {
 			System.out.print(ele+" ");
 		}
