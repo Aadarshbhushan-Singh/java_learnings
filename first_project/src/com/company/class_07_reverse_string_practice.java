@@ -5,7 +5,7 @@ public class class_07_reverse_string_practice {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the string: ");
         String word=sc.next();
-        int length=word.length();
+        int length=word.length();	
         int index=length-1;
         System.out.println("Reversed word is: ");
         for (int i=length; i>0; i--){

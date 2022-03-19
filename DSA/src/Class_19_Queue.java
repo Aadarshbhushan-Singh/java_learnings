@@ -20,7 +20,7 @@ public class Class_19_Queue {
 		System.out.println(queue1.peek());
 		System.out.println(queue1);
 		
-		System.out.println(queue1.element() );
+		System.out.println(queue1.element());
 	
 	}
 }
