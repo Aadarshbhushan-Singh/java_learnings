@@ -1,4 +1,4 @@
 # java_learnings
 
-##I have made this repo while learning java related stuffs.
+## I have made this repo while learning java related stuffs.
 
